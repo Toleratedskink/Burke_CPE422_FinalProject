@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ tempLED.cpp derek_LED.cpp -o tempLED -lpaho-mqtt3c

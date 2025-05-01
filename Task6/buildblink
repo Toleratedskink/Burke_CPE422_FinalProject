@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ LEDbutton.cpp PWM.cpp util.cpp -o LEDblink -lpaho-mqtt3c

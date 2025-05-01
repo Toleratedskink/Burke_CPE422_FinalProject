@@ -1,0 +1,5 @@
+#!/bin/bash
+
+config-pin p9.22 pwm
+
+g++ LEDpwm.cpp PWM.cpp util.cpp -o LEDpwm -lpaho-mqtt3c

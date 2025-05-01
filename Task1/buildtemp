@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ temperature.cpp -o temperature -lpaho-mqtt3c

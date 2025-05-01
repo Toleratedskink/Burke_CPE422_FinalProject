@@ -1,0 +1,5 @@
+#!/bin/bash
+
+config-pin p9.22 pwm
+
+g++ switchPWM.cpp PWM.cpp util.cpp -o switchPWM -lpaho-mqtt3c

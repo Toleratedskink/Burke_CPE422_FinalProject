@@ -1,0 +1,4 @@
+#!/bin/bash
+
+config-pin p9.22 pwm
+config-pin p8.16 gpio_pu

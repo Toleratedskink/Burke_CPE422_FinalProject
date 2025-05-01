@@ -1,0 +1,5 @@
+#!/bin/bash
+
+config-pin p8.16 gpio_pu
+
+g++ window.cpp GPIO.cpp -o window -lpaho-mqtt3c -pthread
